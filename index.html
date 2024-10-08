@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Táblázatok</title>
+</head>
+<body>
+    <h1>Táblázatok</h1>
+    <table border="1">
+        <tr>    <!-- A táblázat első sora -->
+            <th>alma</th>   <!-- A táblázat 1. sora, 1. cellája -->
+            <th>körte</th>  <!-- A táblázat 1. sora, 2. cellája -->
+            <th>banán</th>  <!-- A táblázat 1. sora, 3. cellája -->
+        </tr>
+        <tr>     <!-- A táblázat második sora -->
+            <td>7</td>  <!-- A táblázat 2. sora, 1. cellája -->
+            <td>5</td>  <!-- A táblázat 2. sora, 2. cellája -->
+            <td>3</td>  <!-- A táblázat 2. sora, 3. cellája -->
+        </tr>
+    </table>
+
+    <p>Cellák összevonása sorokban</p>
+    <table border="1">
+        <tr>
+            <td>valami</td>     <!-- 1.sor, 1. cell -->
+            <td>valami</td>     <!-- 1.sor, 2. cell -->
+            <td>valami</td>     <!-- 1.sor, 3. cell -->
+        </tr>
+        <tr>
+            <td>valami</td>     <!-- 2.sor, 1. cell -->
+            <td colspan="2">valami</td>     <!-- 2  .sor, 2. cell -->
+        </tr>
+        <tr>
+            <td>valami</td>
+            <td>valami</td>
+            <td>valami</td>
+        </tr>
+    </table>
+
+    <p>Cellák összevonás oszlopokban</p>
+    <table border="1">
+        <tr>
+            <td>valami</td>
+            <td>valami</td>
+            <td>valami</td>
+        </tr>
+        <tr>
+            <td rowspan="2">valami</td>
+            <td>valami</td>
+            <td>valami</td>
+        </tr>
+        <tr>
+            <!-- Összevont -->
+            <td>valami</td>
+            <td>valami</td>
+        </tr>
+    </table>
+
+    <p>További Példák</p>
+    <table border="1">
+        <tr>
+            <td>1.</td>
+            <td>07<snp>40</snp></td>
+            <td>Matek</td>
+            <td>Tesi</td>
+            <td>Fizika</td>
+        </tr>
+
+        <tr>
+            <td>2.</td>
+            <td>08<snp>30</snp></td>
+            <td>Matek</td>
+            <td>Tesi</td>
+            <td>Fizika</td>
+        </tr>
+    </table>
+</body>
+</html>
